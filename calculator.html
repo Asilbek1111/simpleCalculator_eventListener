@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <style>
+       
+        .container{
+           margin: 100px auto;
+           width: 210px;
+            display: block;
+            padding: 2rem;
+            background: linear-gradient(#74ebd5, #acb6e5);
+           
+        }
+        .container input:first-child{
+            margin-bottom: 1rem;
+        }
+        .first, .second{
+            text-align: center;
+        }
+        .buttons{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .result{
+            text-align: center;
+        }
+        input{
+            text-align: center;
+            align-items: center;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="calc">
+        <div class="container">
+            <input  class="first" type="number"><br>
+            <input  class="second" type="number">
+            <h1 class="result">Natija</h1>
+            <div class="buttons">
+                <button  class="btn">Qo'shish</button>
+                <button class="minus">Ayirish</button>
+                <button class="multiply">Ko'paytirish</button>
+                <button class="fraction">Bo'lish</button>
+            </div>
+        </div>
+    </div>
+    <script src="./calculator.js"></script>
+</body>
+</html>
